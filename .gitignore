@@ -1,6 +1,23 @@
-ajout_produitsssss.php
+# ── Config locale (clés API, credentials) ──────────────────
+includes/config.php
+
+# ── Fichiers de développement ────────────────────────────────
+seed_produits.php
+
+# ── Sauvegardes locales ──────────────────────────────────────
 boutique-BACKUP/
+
+# ── Éditeurs ─────────────────────────────────────────────────
 .vscode/
-*.log
+.idea/
+*.code-workspace
+
+# ── Système d'exploitation ───────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+error_log
+php_errors.log
